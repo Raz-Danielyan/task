@@ -1,0 +1,14 @@
+.img-wrapper{
+  margin-left: 90px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(181, 187, 243);
+  gap: 10px;
+  column-gap: 10px;
+  & img{
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 10px;
+  }
+}
